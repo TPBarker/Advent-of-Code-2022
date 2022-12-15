@@ -30,8 +30,8 @@ public class Main {
      * Then, if the HashMap contains 14 entries, we know we have encountered 14
      * unique characters.
      * @param file the text file containing the String.
-     * @return an Integer containing the index number of the last character in the
-     * unique fourteen character set.
+     * @return  an Integer containing the index number of the last character in the
+     *          unique fourteen character set.
      */
     public int findMatchTake2(File file) {
         try {
@@ -90,8 +90,8 @@ public class Main {
      * unique characters. It uses a very 'brute force' approach of a complicated
      * conditional statement to check the four characters.
      * @param file the text file containing the String.
-     * @return an Integer containing the index of the last character in the
-     * four unique character set.
+     * @return  an Integer containing the index of the last character in the
+     *          four unique character set.
      */
     public int findMatch (File file) {
         try {
